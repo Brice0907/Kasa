@@ -1,0 +1,18 @@
+.appart_flex_top {
+    color: #FF6060;
+    display: flex;
+    align-items: center;
+
+    &_name {
+        width: 93px;
+        text-align: end;
+    }
+
+    &_picture {
+        height: 64px;
+        width: 64px;
+        border-radius: 35px;
+        background-size: cover;
+        margin: 0px 5px;
+    }
+}

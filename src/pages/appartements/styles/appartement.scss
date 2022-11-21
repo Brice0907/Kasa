@@ -1,0 +1,128 @@
+.appart {
+    max-width: 1240px;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    &_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_title {
+            color: #FF6060;
+            font-size: 15px;
+        }
+    }
+
+    &_location {
+        color: #FF6060;
+    }
+
+    &_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+    }
+
+    &_list {
+        display: flex;
+        justify-content: space-between;
+        .collapse_bloc{
+            flex: 1;
+            width: 100%;
+
+            &_list{
+                &_text{
+                    font-size: 18px;
+                }
+            }
+            &_paragraphe{
+                font-size: 18px;
+                list-style-type: none;
+                line-height: 24px;
+            }
+        }
+        &_bloc {
+            width: 582px;
+            margin: 5px 5px;
+
+            &_title {
+                background: #FF6060;
+                height: 52px;
+                color: #FFFFFF;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0px 20px;
+                position: relative;
+            }
+
+            &_contenu {
+                list-style-type: none;
+                line-height: 22px;
+                margin-top: -7px;
+                background: #F7F7F7;
+                color: #FF6060;
+                border-radius: 10px;
+                padding: 30px 15px;
+                letter-spacing: 0.4px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .appart {
+        &_flex {
+            flex-direction: column;
+
+            &_title {
+                font-size: 12px;
+            }
+
+            &_top {
+                margin-right: 5px;
+            }
+        }
+
+        &_location {
+            margin-top: 5px;
+        }
+
+        &_info {
+            flex-direction: row-reverse;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+
+            &_tags {
+                &_name {
+                    font-size: 12px;
+                }
+            }
+
+            &_rate {
+                margin-left: 10px;
+                margin-right: 0px;
+
+            }
+            &_etoile_nocolor{
+                font-size: 22px;
+            }
+        }
+
+        &_list {
+            flex-direction: column;
+            align-items: center;
+
+            &_bloc {
+                width: 100%;
+                max-width: 580px;
+            }
+        }
+    }
+}

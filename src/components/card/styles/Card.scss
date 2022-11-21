@@ -1,0 +1,19 @@
+.card {
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        max-width: 335px;
+        height: 255px;
+    }
+}

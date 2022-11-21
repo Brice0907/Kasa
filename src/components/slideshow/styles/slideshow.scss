@@ -1,0 +1,50 @@
+.slideshow {
+    max-width: 1240px;
+    height: 415px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+    &_fleches {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5px;
+
+        &_bloc {
+            font-size: 55px;
+            cursor: pointer;
+        }
+    }
+
+    &_number {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        top: 170px;
+        text-align: center;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slideshow{
+        max-width: 335px;
+        height: 255px;
+        &_fleches{
+            &_bloc{
+                font-size: 35px;
+            }
+        }
+        &_number{
+            top: 100px; 
+            margin-top: -30px;
+        }
+    }
+}

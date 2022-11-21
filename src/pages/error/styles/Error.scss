@@ -1,0 +1,39 @@
+.bloc {
+    text-align: center;
+    margin: 100px 0px;
+    color: #FF6060;
+
+    &_404 {
+        font-size: 288px;
+        font-weight: 700;
+    }
+
+    &_text {
+        font-size: 36px;
+        margin-top: 40px;
+        margin-bottom: 110px;
+    }
+
+    &_link {
+        font-size: 18px;
+        text-decoration-line: underline;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .bloc{
+        &_404{
+            font-size: 96px;
+        }
+        &_text{
+            font-size: 20px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 90px;
+        }
+        &_link{
+            font-size: 18px;
+        }
+    }
+}

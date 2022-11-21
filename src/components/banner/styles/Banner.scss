@@ -1,0 +1,26 @@
+.banner {
+    align-items: center;
+    border-radius: 25px;
+    max-width: 1240px;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &_text {
+        font-weight: 500;
+        font-size: 48px;
+        color: #FFFFFF;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .banner{
+        background-position: 50%;
+        &_text{
+            font-size: 30px;
+            margin: 0px 10px;
+        }
+    }
+}

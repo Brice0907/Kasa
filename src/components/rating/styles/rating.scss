@@ -1,0 +1,15 @@
+.appart_info {
+    &_etoile_nocolor {
+        color: #E3E3E3;
+        font-size: 24px;
+    }
+
+    &_rate {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
+
+[data-color=true] {
+    color: #FF6060;
+}

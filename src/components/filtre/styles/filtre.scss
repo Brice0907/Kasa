@@ -1,0 +1,21 @@
+.appart_info_tags {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+    color: white;
+
+    &_name {
+        background: #FF6060;
+        margin: 5px 0px;
+        margin-right: 5px;
+        height: 25px;
+        min-width: 115px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+}
